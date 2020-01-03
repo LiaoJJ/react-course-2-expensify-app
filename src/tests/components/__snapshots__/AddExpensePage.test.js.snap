@@ -4,12 +4,12 @@ exports[`asd 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <AddExpensePage
-    addExpense={[Function]}
     history={
         Object {
             "push": [Function],
           }
     }
+    startAddExpense={[Function]}
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
