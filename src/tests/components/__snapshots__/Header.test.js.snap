@@ -20,12 +20,8 @@ exports[`sdasd 1`] = `
   >
     Create Expense
   </NavLink>
-  <NavLink
-    activeClassName="is-active"
-    aria-current="page"
-    to="/help"
-  >
-    Help
-  </NavLink>
+  <button>
+    Logout
+  </button>
 </header>
 `;
