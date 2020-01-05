@@ -1,27 +1,32 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`sdasd 1`] = `
-<header>
-  <h1>
-    Expensify
-  </h1>
-  <NavLink
-    activeClassName="is-active"
-    aria-current="page"
-    exact={true}
-    to="/"
+<header
+  className="header"
+>
+  <div
+    className="content-container"
   >
-    Dashboard
-  </NavLink>
-  <NavLink
-    activeClassName="is-active"
-    aria-current="page"
-    to="/create"
-  >
-    Create Expense
-  </NavLink>
-  <button>
-    Logout
-  </button>
+    <div
+      className="header__content"
+    >
+      <Link
+        activeClassName="is-active"
+        className="header__title"
+        exact={true}
+        replace={false}
+        to="/dashboard"
+      >
+        <h1>
+          Expensify
+        </h1>
+      </Link>
+      <button
+        className="button button--link"
+      >
+        Logout
+      </button>
+    </div>
+  </div>
 </header>
 `;
